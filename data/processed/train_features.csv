@@ -1,0 +1,257 @@
+match_id,match_date,team1,team2,venue,season,toss_winner,toss_decision,team1_win_pct_last_5,team2_win_pct_last_5,team1_head_to_head_win_pct,team2_head_to_head_win_pct,team1_win_pct_at_venue,team2_win_pct_at_venue,winner
+1304047,2022-03-26,Chennai Super Kings,Kolkata Knight Riders,"Wankhede Stadium, Mumbai",2022,Kolkata Knight Riders,field,0.5,0.5,0.5,0.5,0.5,0.5,Kolkata Knight Riders
+1304048,2022-03-27,Mumbai Indians,Delhi Capitals,"Brabourne Stadium, Mumbai",2022,Delhi Capitals,field,0.5,0.5,0.5,0.5,0.5,0.5,Delhi Capitals
+1304049,2022-03-27,Royal Challengers Bangalore,Punjab Kings,"Dr DY Patil Sports Academy, Mumbai",2022,Punjab Kings,field,0.5,0.5,0.5,0.5,0.5,0.5,Punjab Kings
+1304050,2022-03-28,Lucknow Super Giants,Gujarat Titans,"Wankhede Stadium, Mumbai",2022,Gujarat Titans,field,0.5,0.5,0.5,0.5,0.5,0.5,Gujarat Titans
+1304051,2022-03-29,Rajasthan Royals,Sunrisers Hyderabad,"Maharashtra Cricket Association Stadium, Pune",2022,Sunrisers Hyderabad,field,0.5,0.5,0.5,0.5,0.5,0.5,Rajasthan Royals
+1304052,2022-03-30,Kolkata Knight Riders,Royal Challengers Bangalore,"Dr DY Patil Sports Academy, Mumbai",2022,Royal Challengers Bangalore,field,1.0,0.0,0.5,0.5,0.5,0.0,Royal Challengers Bangalore
+1304053,2022-03-31,Chennai Super Kings,Lucknow Super Giants,"Brabourne Stadium, Mumbai",2022,Lucknow Super Giants,field,0.0,0.0,0.5,0.5,0.5,0.5,Lucknow Super Giants
+1304054,2022-04-01,Punjab Kings,Kolkata Knight Riders,"Wankhede Stadium, Mumbai",2022,Kolkata Knight Riders,field,1.0,0.5,0.5,0.5,0.5,1.0,Kolkata Knight Riders
+1304055,2022-04-02,Rajasthan Royals,Mumbai Indians,"Dr DY Patil Sports Academy, Mumbai",2022,Mumbai Indians,field,1.0,0.0,0.5,0.5,0.5,0.5,Rajasthan Royals
+1304056,2022-04-02,Gujarat Titans,Delhi Capitals,"Maharashtra Cricket Association Stadium, Pune",2022,Delhi Capitals,field,1.0,1.0,0.5,0.5,0.5,0.5,Gujarat Titans
+1304057,2022-04-03,Punjab Kings,Chennai Super Kings,"Brabourne Stadium, Mumbai",2022,Chennai Super Kings,field,0.5,0.0,0.5,0.5,0.5,0.0,Punjab Kings
+1304058,2022-04-04,Lucknow Super Giants,Sunrisers Hyderabad,"Dr DY Patil Sports Academy, Mumbai",2022,Sunrisers Hyderabad,field,0.5,0.0,0.5,0.5,0.5,0.5,Lucknow Super Giants
+1304059,2022-04-05,Rajasthan Royals,Royal Challengers Bangalore,"Wankhede Stadium, Mumbai",2022,Royal Challengers Bangalore,field,1.0,0.5,0.5,0.5,0.5,0.5,Royal Challengers Bangalore
+1304060,2022-04-06,Mumbai Indians,Kolkata Knight Riders,"Maharashtra Cricket Association Stadium, Pune",2022,Kolkata Knight Riders,field,0.0,0.6666666666666666,0.5,0.5,0.5,0.5,Kolkata Knight Riders
+1304061,2022-04-07,Delhi Capitals,Lucknow Super Giants,"Dr DY Patil Sports Academy, Mumbai",2022,Lucknow Super Giants,field,0.5,0.6666666666666666,0.5,0.5,0.5,1.0,Lucknow Super Giants
+1304062,2022-04-08,Punjab Kings,Gujarat Titans,"Brabourne Stadium, Mumbai",2022,Gujarat Titans,field,0.6666666666666666,1.0,0.5,0.5,1.0,0.5,Gujarat Titans
+1304063,2022-04-09,Chennai Super Kings,Sunrisers Hyderabad,"Dr DY Patil Sports Academy, Mumbai",2022,Sunrisers Hyderabad,field,0.0,0.0,0.5,0.5,0.5,0.0,Sunrisers Hyderabad
+1304064,2022-04-09,Mumbai Indians,Royal Challengers Bangalore,"Maharashtra Cricket Association Stadium, Pune",2022,Royal Challengers Bangalore,field,0.0,0.6666666666666666,0.5,0.5,0.0,0.5,Royal Challengers Bangalore
+1304065,2022-04-10,Delhi Capitals,Kolkata Knight Riders,"Brabourne Stadium, Mumbai",2022,Kolkata Knight Riders,field,0.3333333333333333,0.75,0.5,0.5,1.0,0.5,Delhi Capitals
+1304066,2022-04-10,Rajasthan Royals,Lucknow Super Giants,"Wankhede Stadium, Mumbai",2022,Lucknow Super Giants,field,0.6666666666666666,0.75,0.5,0.5,0.0,0.0,Rajasthan Royals
+1304067,2022-04-11,Gujarat Titans,Sunrisers Hyderabad,"Dr DY Patil Sports Academy, Mumbai",2022,Sunrisers Hyderabad,field,1.0,0.3333333333333333,0.5,0.5,0.5,0.5,Sunrisers Hyderabad
+1304068,2022-04-12,Chennai Super Kings,Royal Challengers Bangalore,"Dr DY Patil Sports Academy, Mumbai",2022,Royal Challengers Bangalore,field,0.0,0.75,0.5,0.5,0.0,0.5,Chennai Super Kings
+1304069,2022-04-13,Punjab Kings,Mumbai Indians,"Maharashtra Cricket Association Stadium, Pune",2022,Mumbai Indians,field,0.5,0.0,0.5,0.5,0.5,0.0,Punjab Kings
+1304070,2022-04-14,Gujarat Titans,Rajasthan Royals,"Dr DY Patil Sports Academy, Mumbai",2022,Rajasthan Royals,field,0.75,0.75,0.5,0.5,0.0,1.0,Gujarat Titans
+1304071,2022-04-15,Kolkata Knight Riders,Sunrisers Hyderabad,"Brabourne Stadium, Mumbai",2022,Sunrisers Hyderabad,field,0.6,0.5,0.5,0.5,0.0,0.5,Sunrisers Hyderabad
+1304072,2022-04-16,Lucknow Super Giants,Mumbai Indians,"Brabourne Stadium, Mumbai",2022,Mumbai Indians,field,0.6,0.0,0.5,0.5,1.0,0.0,Lucknow Super Giants
+1304073,2022-04-16,Royal Challengers Bangalore,Delhi Capitals,"Wankhede Stadium, Mumbai",2022,Delhi Capitals,field,0.6,0.5,0.5,0.5,1.0,0.5,Royal Challengers Bangalore
+1304074,2022-04-17,Punjab Kings,Sunrisers Hyderabad,"Dr DY Patil Sports Academy, Mumbai",2022,Sunrisers Hyderabad,field,0.6,0.6,0.5,0.5,1.0,0.6666666666666666,Sunrisers Hyderabad
+1304075,2022-04-17,Chennai Super Kings,Gujarat Titans,"Maharashtra Cricket Association Stadium, Pune",2022,Gujarat Titans,field,0.2,0.8,0.5,0.5,0.5,1.0,Gujarat Titans
+1304076,2022-04-18,Rajasthan Royals,Kolkata Knight Riders,"Brabourne Stadium, Mumbai",2022,Kolkata Knight Riders,field,0.6,0.4,0.5,0.5,0.5,0.0,Rajasthan Royals
+1304077,2022-04-19,Royal Challengers Bangalore,Lucknow Super Giants,"Dr DY Patil Sports Academy, Mumbai",2022,Lucknow Super Giants,field,0.8,0.8,0.5,0.5,0.3333333333333333,1.0,Royal Challengers Bangalore
+1304078,2022-04-20,Punjab Kings,Delhi Capitals,"Brabourne Stadium, Mumbai",2022,Delhi Capitals,field,0.4,0.4,0.5,0.5,0.5,1.0,Delhi Capitals
+1304079,2022-04-21,Mumbai Indians,Chennai Super Kings,"Dr DY Patil Sports Academy, Mumbai",2022,Chennai Super Kings,field,0.0,0.2,0.5,0.5,0.0,0.5,Chennai Super Kings
+1304080,2022-04-22,Rajasthan Royals,Delhi Capitals,"Wankhede Stadium, Mumbai",2022,Delhi Capitals,field,0.6,0.4,0.5,0.5,0.5,0.0,Rajasthan Royals
+1304081,2022-04-23,Gujarat Titans,Kolkata Knight Riders,"Dr DY Patil Sports Academy, Mumbai",2022,Gujarat Titans,bat,0.8,0.4,0.5,0.5,0.5,0.0,Gujarat Titans
+1304082,2022-04-23,Royal Challengers Bangalore,Sunrisers Hyderabad,"Brabourne Stadium, Mumbai",2022,Sunrisers Hyderabad,field,0.8,0.8,0.5,0.5,0.5,1.0,Sunrisers Hyderabad
+1304083,2022-04-24,Lucknow Super Giants,Mumbai Indians,"Wankhede Stadium, Mumbai",2022,Mumbai Indians,field,0.6,0.0,1.0,0.0,0.0,0.5,Lucknow Super Giants
+1304084,2022-04-25,Punjab Kings,Chennai Super Kings,"Wankhede Stadium, Mumbai",2022,Chennai Super Kings,field,0.4,0.4,1.0,0.0,0.0,0.0,Punjab Kings
+1304085,2022-04-26,Rajasthan Royals,Royal Challengers Bangalore,"Maharashtra Cricket Association Stadium, Pune",2022,Royal Challengers Bangalore,field,0.6,0.6,0.0,1.0,1.0,1.0,Rajasthan Royals
+1304086,2022-04-27,Sunrisers Hyderabad,Gujarat Titans,"Wankhede Stadium, Mumbai",2022,Gujarat Titans,field,1.0,0.8,1.0,0.0,0.5,1.0,Gujarat Titans
+1304087,2022-04-28,Kolkata Knight Riders,Delhi Capitals,"Wankhede Stadium, Mumbai",2022,Delhi Capitals,field,0.2,0.4,0.0,1.0,1.0,0.0,Delhi Capitals
+1304088,2022-04-29,Lucknow Super Giants,Punjab Kings,"Maharashtra Cricket Association Stadium, Pune",2022,Punjab Kings,field,0.6,0.4,0.5,0.5,0.5,1.0,Lucknow Super Giants
+1304089,2022-04-30,Royal Challengers Bangalore,Gujarat Titans,"Brabourne Stadium, Mumbai",2022,Royal Challengers Bangalore,bat,0.4,0.8,0.5,0.5,0.0,1.0,Gujarat Titans
+1304090,2022-04-30,Rajasthan Royals,Mumbai Indians,"Dr DY Patil Sports Academy, Mumbai",2022,Mumbai Indians,field,0.8,0.0,1.0,0.0,0.5,0.0,Mumbai Indians
+1304091,2022-05-01,Lucknow Super Giants,Delhi Capitals,"Wankhede Stadium, Mumbai",2022,Lucknow Super Giants,bat,0.6,0.6,1.0,0.0,0.3333333333333333,0.3333333333333333,Lucknow Super Giants
+1304092,2022-05-01,Chennai Super Kings,Sunrisers Hyderabad,"Maharashtra Cricket Association Stadium, Pune",2022,Sunrisers Hyderabad,field,0.4,0.8,0.0,1.0,0.0,0.0,Chennai Super Kings
+1304093,2022-05-02,Rajasthan Royals,Kolkata Knight Riders,"Wankhede Stadium, Mumbai",2022,Kolkata Knight Riders,field,0.6,0.0,1.0,0.0,0.6666666666666666,0.6666666666666666,Kolkata Knight Riders
+1304094,2022-05-03,Gujarat Titans,Punjab Kings,"Dr DY Patil Sports Academy, Mumbai",2022,Gujarat Titans,bat,1.0,0.4,1.0,0.0,0.6666666666666666,0.5,Punjab Kings
+1304095,2022-05-04,Royal Challengers Bangalore,Chennai Super Kings,"Maharashtra Cricket Association Stadium, Pune",2022,Chennai Super Kings,field,0.4,0.6,0.0,1.0,0.5,0.5,Royal Challengers Bangalore
+1304096,2022-05-05,Delhi Capitals,Sunrisers Hyderabad,"Brabourne Stadium, Mumbai",2022,Sunrisers Hyderabad,field,0.4,0.6,0.5,0.5,1.0,1.0,Delhi Capitals
+1304097,2022-05-06,Mumbai Indians,Gujarat Titans,"Brabourne Stadium, Mumbai",2022,Gujarat Titans,field,0.2,0.8,0.5,0.5,0.0,1.0,Mumbai Indians
+1304098,2022-05-07,Punjab Kings,Rajasthan Royals,"Wankhede Stadium, Mumbai",2022,Punjab Kings,bat,0.4,0.6,0.5,0.5,0.5,0.5,Rajasthan Royals
+1304099,2022-05-07,Lucknow Super Giants,Kolkata Knight Riders,"Maharashtra Cricket Association Stadium, Pune",2022,Kolkata Knight Riders,field,0.8,0.2,0.5,0.5,1.0,1.0,Lucknow Super Giants
+1304100,2022-05-08,Royal Challengers Bangalore,Sunrisers Hyderabad,"Wankhede Stadium, Mumbai",2022,Royal Challengers Bangalore,bat,0.4,0.4,0.0,1.0,1.0,0.0,Royal Challengers Bangalore
+1304101,2022-05-08,Chennai Super Kings,Delhi Capitals,"Dr DY Patil Sports Academy, Mumbai",2022,Delhi Capitals,field,0.4,0.6,0.5,0.5,0.6666666666666666,0.0,Chennai Super Kings
+1304102,2022-05-09,Kolkata Knight Riders,Mumbai Indians,"Dr DY Patil Sports Academy, Mumbai",2022,Mumbai Indians,field,0.2,0.4,1.0,0.0,0.0,0.3333333333333333,Kolkata Knight Riders
+1304103,2022-05-10,Gujarat Titans,Lucknow Super Giants,"Maharashtra Cricket Association Stadium, Pune",2022,Gujarat Titans,bat,0.6,0.8,1.0,0.0,1.0,1.0,Gujarat Titans
+1304104,2022-05-11,Rajasthan Royals,Delhi Capitals,"Dr DY Patil Sports Academy, Mumbai",2022,Delhi Capitals,field,0.6,0.4,1.0,0.0,0.3333333333333333,0.0,Delhi Capitals
+1304105,2022-05-12,Chennai Super Kings,Mumbai Indians,"Wankhede Stadium, Mumbai",2022,Mumbai Indians,field,0.6,0.4,1.0,0.0,0.0,0.0,Mumbai Indians
+1304106,2022-05-13,Punjab Kings,Royal Challengers Bangalore,"Brabourne Stadium, Mumbai",2022,Royal Challengers Bangalore,field,0.4,0.4,1.0,0.0,0.3333333333333333,0.0,Punjab Kings
+1304107,2022-05-14,Kolkata Knight Riders,Sunrisers Hyderabad,"Maharashtra Cricket Association Stadium, Pune",2022,Kolkata Knight Riders,bat,0.4,0.2,0.0,1.0,0.5,0.0,Kolkata Knight Riders
+1304108,2022-05-15,Chennai Super Kings,Gujarat Titans,"Wankhede Stadium, Mumbai",2022,Chennai Super Kings,bat,0.4,0.6,0.0,1.0,0.0,1.0,Gujarat Titans
+1304109,2022-05-15,Rajasthan Royals,Lucknow Super Giants,"Brabourne Stadium, Mumbai",2022,Rajasthan Royals,bat,0.4,0.8,1.0,0.0,1.0,1.0,Rajasthan Royals
+1304110,2022-05-16,Delhi Capitals,Punjab Kings,"Dr DY Patil Sports Academy, Mumbai",2022,Punjab Kings,field,0.6,0.6,1.0,0.0,0.3333333333333333,0.6666666666666666,Delhi Capitals
+1304111,2022-05-17,Sunrisers Hyderabad,Mumbai Indians,"Wankhede Stadium, Mumbai",2022,Mumbai Indians,field,0.0,0.6,0.5,0.5,0.0,0.5,Sunrisers Hyderabad
+1304112,2022-05-18,Lucknow Super Giants,Kolkata Knight Riders,"Dr DY Patil Sports Academy, Mumbai",2022,Lucknow Super Giants,bat,0.6,0.6,1.0,0.0,0.6666666666666666,0.3333333333333333,Lucknow Super Giants
+1304113,2022-05-19,Gujarat Titans,Royal Challengers Bangalore,"Wankhede Stadium, Mumbai",2022,Gujarat Titans,bat,0.6,0.4,1.0,0.0,1.0,1.0,Royal Challengers Bangalore
+1304114,2022-05-20,Chennai Super Kings,Rajasthan Royals,"Brabourne Stadium, Mumbai",2022,Chennai Super Kings,bat,0.4,0.4,0.5,0.5,0.0,1.0,Rajasthan Royals
+1304115,2022-05-21,Delhi Capitals,Mumbai Indians,"Wankhede Stadium, Mumbai",2022,Mumbai Indians,field,0.6,0.6,1.0,0.0,0.25,0.3333333333333333,Mumbai Indians
+1304116,2022-05-22,Sunrisers Hyderabad,Punjab Kings,"Wankhede Stadium, Mumbai",2022,Sunrisers Hyderabad,bat,0.2,0.4,1.0,0.0,0.3333333333333333,0.3333333333333333,Punjab Kings
+1312197,2022-05-24,Rajasthan Royals,Gujarat Titans,"Eden Gardens, Kolkata",2022,Gujarat Titans,field,0.6,0.4,0.0,1.0,0.5,0.5,Gujarat Titans
+1312198,2022-05-25,Royal Challengers Bangalore,Lucknow Super Giants,"Eden Gardens, Kolkata",2022,Lucknow Super Giants,field,0.6,0.6,1.0,0.0,0.5,0.5,Royal Challengers Bangalore
+1312199,2022-05-27,Royal Challengers Bangalore,Rajasthan Royals,"Narendra Modi Stadium, Ahmedabad",2022,Rajasthan Royals,field,0.8,0.6,0.5,0.5,0.5,0.5,Rajasthan Royals
+1312200,2022-05-29,Rajasthan Royals,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2022,Rajasthan Royals,bat,0.6,0.6,0.0,1.0,1.0,0.5,Gujarat Titans
+1359475,2023-03-31,Chennai Super Kings,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2023,Gujarat Titans,field,0.2,0.8,0.0,1.0,0.5,1.0,Gujarat Titans
+1359476,2023-04-01,Punjab Kings,Kolkata Knight Riders,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",2023,Kolkata Knight Riders,field,0.6,0.6,0.0,1.0,0.5,0.5,Punjab Kings
+1359477,2023-04-01,Lucknow Super Giants,Delhi Capitals,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2023,Delhi Capitals,field,0.4,0.6,1.0,0.0,0.5,0.5,Lucknow Super Giants
+1359478,2023-04-02,Rajasthan Royals,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2023,Sunrisers Hyderabad,field,0.6,0.2,1.0,0.0,0.5,0.5,Rajasthan Royals
+1359479,2023-04-02,Mumbai Indians,Royal Challengers Bangalore,"M Chinnaswamy Stadium, Bengaluru",2023,Royal Challengers Bangalore,field,0.6,0.6,0.0,1.0,0.5,0.5,Royal Challengers Bangalore
+1359480,2023-04-03,Chennai Super Kings,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",2023,Lucknow Super Giants,field,0.2,0.4,0.0,1.0,0.5,0.5,Chennai Super Kings
+1359481,2023-04-04,Delhi Capitals,Gujarat Titans,"Arun Jaitley Stadium, Delhi",2023,Gujarat Titans,field,0.4,0.8,0.0,1.0,0.5,0.5,Gujarat Titans
+1359482,2023-04-05,Punjab Kings,Rajasthan Royals,"Barsapara Cricket Stadium, Guwahati",2023,Rajasthan Royals,field,0.6,0.6,0.0,1.0,0.5,0.5,Punjab Kings
+1359483,2023-04-06,Kolkata Knight Riders,Royal Challengers Bangalore,"Eden Gardens, Kolkata",2023,Royal Challengers Bangalore,field,0.4,0.6,0.0,1.0,0.5,1.0,Kolkata Knight Riders
+1359484,2023-04-07,Sunrisers Hyderabad,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2023,Sunrisers Hyderabad,bat,0.2,0.4,0.0,1.0,0.5,1.0,Lucknow Super Giants
+1359485,2023-04-08,Rajasthan Royals,Delhi Capitals,"Barsapara Cricket Stadium, Guwahati",2023,Delhi Capitals,field,0.4,0.4,0.5,0.5,0.0,0.5,Rajasthan Royals
+1359486,2023-04-08,Mumbai Indians,Chennai Super Kings,"Wankhede Stadium, Mumbai",2023,Chennai Super Kings,field,0.4,0.2,0.5,0.5,0.5,0.0,Chennai Super Kings
+1359487,2023-04-09,Gujarat Titans,Kolkata Knight Riders,"Narendra Modi Stadium, Ahmedabad",2023,Gujarat Titans,bat,0.8,0.6,1.0,0.0,1.0,0.5,Kolkata Knight Riders
+1359488,2023-04-09,Punjab Kings,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2023,Sunrisers Hyderabad,field,0.8,0.2,0.5,0.5,0.5,0.0,Sunrisers Hyderabad
+1359489,2023-04-10,Royal Challengers Bangalore,Lucknow Super Giants,"M Chinnaswamy Stadium, Bengaluru",2023,Lucknow Super Giants,field,0.6,0.6,1.0,0.0,1.0,0.5,Lucknow Super Giants
+1359490,2023-04-11,Delhi Capitals,Mumbai Indians,"Arun Jaitley Stadium, Delhi",2023,Mumbai Indians,field,0.2,0.4,0.5,0.5,0.0,0.5,Mumbai Indians
+1359491,2023-04-12,Rajasthan Royals,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2023,Chennai Super Kings,field,0.6,0.4,1.0,0.0,0.5,1.0,Rajasthan Royals
+1359492,2023-04-13,Punjab Kings,Gujarat Titans,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",2023,Gujarat Titans,field,0.6,0.8,0.5,0.5,1.0,0.5,Gujarat Titans
+1359493,2023-04-14,Sunrisers Hyderabad,Kolkata Knight Riders,"Eden Gardens, Kolkata",2023,Kolkata Knight Riders,field,0.4,0.6,0.5,0.5,0.5,1.0,Sunrisers Hyderabad
+1359494,2023-04-15,Royal Challengers Bangalore,Delhi Capitals,"M Chinnaswamy Stadium, Bengaluru",2023,Delhi Capitals,field,0.4,0.0,1.0,0.0,0.5,0.5,Royal Challengers Bangalore
+1359495,2023-04-15,Lucknow Super Giants,Punjab Kings,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2023,Punjab Kings,field,0.6,0.6,1.0,0.0,1.0,0.5,Punjab Kings
+1359496,2023-04-16,Kolkata Knight Riders,Mumbai Indians,"Wankhede Stadium, Mumbai",2023,Mumbai Indians,field,0.4,0.4,1.0,0.0,0.75,0.4,Mumbai Indians
+1359497,2023-04-16,Gujarat Titans,Rajasthan Royals,"Narendra Modi Stadium, Ahmedabad",2023,Rajasthan Royals,field,0.8,0.6,1.0,0.0,0.6666666666666666,0.5,Rajasthan Royals
+1359498,2023-04-17,Chennai Super Kings,Royal Challengers Bangalore,"M Chinnaswamy Stadium, Bengaluru",2023,Royal Challengers Bangalore,field,0.4,0.4,0.5,0.5,0.5,0.6666666666666666,Chennai Super Kings
+1359499,2023-04-18,Mumbai Indians,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2023,Sunrisers Hyderabad,field,0.6,0.4,0.0,1.0,0.5,0.5,Mumbai Indians
+1359500,2023-04-19,Lucknow Super Giants,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2023,Rajasthan Royals,field,0.6,0.8,0.0,1.0,0.5,0.5,Lucknow Super Giants
+1359501,2023-04-20,Royal Challengers Bangalore,Punjab Kings,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",2023,Punjab Kings,field,0.4,0.6,0.0,1.0,0.5,0.5,Royal Challengers Bangalore
+1359502,2023-04-20,Kolkata Knight Riders,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2023,Delhi Capitals,field,0.4,0.0,0.0,1.0,0.5,0.0,Delhi Capitals
+1359503,2023-04-21,Sunrisers Hyderabad,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2023,Chennai Super Kings,field,0.4,0.6,0.5,0.5,0.5,0.5,Chennai Super Kings
+1359504,2023-04-22,Gujarat Titans,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2023,Gujarat Titans,bat,0.6,0.6,1.0,0.0,0.5,0.6666666666666666,Gujarat Titans
+1359505,2023-04-22,Punjab Kings,Mumbai Indians,"Wankhede Stadium, Mumbai",2023,Mumbai Indians,field,0.4,0.6,1.0,0.0,0.5,0.5,Punjab Kings
+1359506,2023-04-23,Royal Challengers Bangalore,Rajasthan Royals,"M Chinnaswamy Stadium, Bengaluru",2023,Rajasthan Royals,field,0.4,0.6,0.3333333333333333,0.6666666666666666,0.5,0.5,Royal Challengers Bangalore
+1359507,2023-04-23,Chennai Super Kings,Kolkata Knight Riders,"Eden Gardens, Kolkata",2023,Kolkata Knight Riders,field,0.8,0.4,0.0,1.0,0.5,0.5,Chennai Super Kings
+1359508,2023-04-24,Delhi Capitals,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2023,Delhi Capitals,bat,0.2,0.4,1.0,0.0,0.5,0.3333333333333333,Delhi Capitals
+1359509,2023-04-25,Gujarat Titans,Mumbai Indians,"Narendra Modi Stadium, Ahmedabad",2023,Mumbai Indians,field,0.6,0.6,0.0,1.0,0.5,0.5,Gujarat Titans
+1359510,2023-04-26,Kolkata Knight Riders,Royal Challengers Bangalore,"M Chinnaswamy Stadium, Bengaluru",2023,Royal Challengers Bangalore,field,0.2,0.6,0.5,0.5,0.5,0.6,Kolkata Knight Riders
+1359511,2023-04-27,Rajasthan Royals,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",2023,Rajasthan Royals,bat,0.6,0.8,1.0,0.0,0.0,0.5,Rajasthan Royals
+1359512,2023-04-28,Lucknow Super Giants,Punjab Kings,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",2023,Punjab Kings,field,0.6,0.4,0.5,0.5,0.5,0.3333333333333333,Lucknow Super Giants
+1359513,2023-04-29,Kolkata Knight Riders,Gujarat Titans,"Eden Gardens, Kolkata",2023,Gujarat Titans,field,0.2,0.6,0.5,0.5,0.3333333333333333,1.0,Gujarat Titans
+1359514,2023-04-29,Sunrisers Hyderabad,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2023,Sunrisers Hyderabad,bat,0.4,0.4,0.0,1.0,0.5,0.3333333333333333,Sunrisers Hyderabad
+1359515,2023-04-30,Chennai Super Kings,Punjab Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2023,Chennai Super Kings,bat,0.6,0.4,0.0,1.0,0.6666666666666666,0.5,Punjab Kings
+1359516,2023-04-30,Rajasthan Royals,Mumbai Indians,"Wankhede Stadium, Mumbai",2023,Rajasthan Royals,bat,0.6,0.6,0.5,0.5,0.6,0.42857142857142855,Mumbai Indians
+1359517,2023-05-01,Royal Challengers Bangalore,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2023,Royal Challengers Bangalore,bat,0.6,0.6,0.6666666666666666,0.3333333333333333,0.5,0.5,Royal Challengers Bangalore
+1359518,2023-05-02,Delhi Capitals,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2023,Delhi Capitals,bat,0.4,0.8,0.0,1.0,0.5,0.6,Delhi Capitals
+1359519,2023-05-03,Lucknow Super Giants,Chennai Super Kings,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2023,Chennai Super Kings,field,0.4,0.6,0.5,0.5,0.4,0.5,
+1359520,2023-05-03,Punjab Kings,Mumbai Indians,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",2023,Mumbai Indians,field,0.6,0.6,1.0,0.0,0.25,0.5,Mumbai Indians
+1359521,2023-05-04,Kolkata Knight Riders,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2023,Kolkata Knight Riders,bat,0.2,0.4,0.3333333333333333,0.6666666666666666,0.5,0.25,Kolkata Knight Riders
+1359522,2023-05-05,Rajasthan Royals,Gujarat Titans,"Sawai Mansingh Stadium, Jaipur",2023,Rajasthan Royals,bat,0.4,0.6,0.25,0.75,0.5,0.5,Gujarat Titans
+1359523,2023-05-06,Mumbai Indians,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2023,Chennai Super Kings,field,0.6,0.4,0.3333333333333333,0.6666666666666666,0.5,0.5,Chennai Super Kings
+1359524,2023-05-06,Royal Challengers Bangalore,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2023,Royal Challengers Bangalore,bat,0.6,0.6,1.0,0.0,0.5,0.25,Delhi Capitals
+1359525,2023-05-07,Gujarat Titans,Lucknow Super Giants,"Narendra Modi Stadium, Ahmedabad",2023,Lucknow Super Giants,field,0.8,0.4,1.0,0.0,0.5,0.5,Gujarat Titans
+1359526,2023-05-07,Rajasthan Royals,Sunrisers Hyderabad,"Sawai Mansingh Stadium, Jaipur",2023,Rajasthan Royals,bat,0.2,0.2,1.0,0.0,0.3333333333333333,0.5,Sunrisers Hyderabad
+1359527,2023-05-08,Punjab Kings,Kolkata Knight Riders,"Eden Gardens, Kolkata",2023,Punjab Kings,bat,0.4,0.4,0.5,0.5,0.5,0.25,Kolkata Knight Riders
+1359528,2023-05-09,Royal Challengers Bangalore,Mumbai Indians,"Wankhede Stadium, Mumbai",2023,Mumbai Indians,field,0.6,0.4,1.0,0.0,1.0,0.5,Mumbai Indians
+1359529,2023-05-10,Chennai Super Kings,Delhi Capitals,"MA Chidambaram Stadium, Chepauk, Chennai",2023,Chennai Super Kings,bat,0.4,0.8,1.0,0.0,0.6,0.5,Chennai Super Kings
+1359530,2023-05-11,Kolkata Knight Riders,Rajasthan Royals,"Eden Gardens, Kolkata",2023,Rajasthan Royals,field,0.6,0.2,0.5,0.5,0.4,0.0,Rajasthan Royals
+1359531,2023-05-12,Mumbai Indians,Gujarat Titans,"Wankhede Stadium, Mumbai",2023,Gujarat Titans,field,0.6,0.8,0.5,0.5,0.5555555555555556,0.75,Mumbai Indians
+1359532,2023-05-13,Sunrisers Hyderabad,Lucknow Super Giants,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2023,Sunrisers Hyderabad,bat,0.4,0.2,0.0,1.0,0.2,0.5,Lucknow Super Giants
+1359533,2023-05-13,Punjab Kings,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2023,Delhi Capitals,field,0.4,0.6,0.0,1.0,0.5,0.4,Punjab Kings
+1359534,2023-05-14,Royal Challengers Bangalore,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2023,Royal Challengers Bangalore,bat,0.4,0.4,0.5,0.5,0.5,0.25,Royal Challengers Bangalore
+1359535,2023-05-14,Chennai Super Kings,Kolkata Knight Riders,"MA Chidambaram Stadium, Chepauk, Chennai",2023,Chennai Super Kings,bat,0.4,0.6,0.5,0.5,0.6666666666666666,0.5,Kolkata Knight Riders
+1359536,2023-05-15,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",2023,Sunrisers Hyderabad,field,0.6,0.4,0.5,0.5,0.5714285714285714,0.5,Gujarat Titans
+1359537,2023-05-16,Lucknow Super Giants,Mumbai Indians,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2023,Mumbai Indians,field,0.4,0.8,1.0,0.0,0.3333333333333333,0.5,Lucknow Super Giants
+1359538,2023-05-17,Delhi Capitals,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2023,Punjab Kings,field,0.4,0.4,0.6666666666666666,0.3333333333333333,0.5,0.5,Delhi Capitals
+1359539,2023-05-18,Sunrisers Hyderabad,Royal Challengers Bangalore,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2023,Royal Challengers Bangalore,field,0.4,0.4,0.5,0.5,0.16666666666666666,0.5,Royal Challengers Bangalore
+1359540,2023-05-19,Punjab Kings,Rajasthan Royals,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2023,Rajasthan Royals,field,0.4,0.2,0.5,0.5,0.0,0.5,Rajasthan Royals
+1359541,2023-05-20,Chennai Super Kings,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2023,Chennai Super Kings,bat,0.4,0.6,1.0,0.0,0.5,0.3333333333333333,Chennai Super Kings
+1359542,2023-05-20,Lucknow Super Giants,Kolkata Knight Riders,"Eden Gardens, Kolkata",2023,Kolkata Knight Riders,field,0.4,0.6,1.0,0.0,0.0,0.3333333333333333,Lucknow Super Giants
+1359543,2023-05-21,Sunrisers Hyderabad,Mumbai Indians,"Wankhede Stadium, Mumbai",2023,Mumbai Indians,field,0.2,0.6,0.5,0.5,0.25,0.6,Mumbai Indians
+1359544,2023-05-21,Royal Challengers Bangalore,Gujarat Titans,"M Chinnaswamy Stadium, Bengaluru",2023,Gujarat Titans,field,0.6,0.6,0.5,0.5,0.5,0.5,Gujarat Titans
+1370350,2023-05-23,Chennai Super Kings,Gujarat Titans,"MA Chidambaram Stadium, Chepauk, Chennai",2023,Gujarat Titans,field,0.6,0.8,0.0,1.0,0.5714285714285714,0.5,Chennai Super Kings
+1370351,2023-05-24,Mumbai Indians,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",2023,Mumbai Indians,bat,0.6,0.6,0.0,1.0,0.0,0.0,Mumbai Indians
+1370352,2023-05-26,Gujarat Titans,Mumbai Indians,"Narendra Modi Stadium, Ahmedabad",2023,Mumbai Indians,field,0.6,0.8,0.3333333333333333,0.6666666666666666,0.625,0.0,Gujarat Titans
+1370353,2023-05-29,Gujarat Titans,Chennai Super Kings,"Narendra Modi Stadium, Ahmedabad",2023,Chennai Super Kings,field,0.6,0.8,0.75,0.25,0.6666666666666666,0.0,Chennai Super Kings
+1422119,2024-03-22,Royal Challengers Bengaluru,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2024,Royal Challengers Bengaluru,bat,0.5,0.8,0.5,0.5,0.5,0.625,Chennai Super Kings
+1422120,2024-03-23,Delhi Capitals,Punjab Kings,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",2024,Punjab Kings,field,0.4,0.2,0.75,0.25,0.5,0.5,Punjab Kings
+1422121,2024-03-23,Kolkata Knight Riders,Sunrisers Hyderabad,"Eden Gardens, Kolkata",2024,Sunrisers Hyderabad,field,0.6,0.2,0.5,0.5,0.2857142857142857,1.0,Kolkata Knight Riders
+1422122,2024-03-24,Rajasthan Royals,Lucknow Super Giants,"Sawai Mansingh Stadium, Jaipur",2024,Rajasthan Royals,bat,0.4,0.6,0.6666666666666666,0.3333333333333333,0.2,1.0,Rajasthan Royals
+1422123,2024-03-24,Gujarat Titans,Mumbai Indians,"Narendra Modi Stadium, Ahmedabad",2024,Mumbai Indians,field,0.6,0.6,0.5,0.5,0.6,0.0,Gujarat Titans
+1422124,2024-03-25,Punjab Kings,Royal Challengers Bengaluru,"M Chinnaswamy Stadium, Bengaluru",2024,Royal Challengers Bengaluru,field,0.4,0.0,0.5,0.5,0.5,0.5,Royal Challengers Bengaluru
+1422125,2024-03-26,Chennai Super Kings,Gujarat Titans,"MA Chidambaram Stadium, Chepauk, Chennai",2024,Gujarat Titans,field,0.8,0.6,0.4,0.6,0.6666666666666666,0.0,Chennai Super Kings
+1422126,2024-03-27,Sunrisers Hyderabad,Mumbai Indians,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2024,Mumbai Indians,field,0.0,0.4,0.3333333333333333,0.6666666666666666,0.14285714285714285,1.0,Sunrisers Hyderabad
+1422127,2024-03-28,Rajasthan Royals,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",2024,Delhi Capitals,field,0.6,0.2,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5,Rajasthan Royals
+1422128,2024-03-29,Royal Challengers Bengaluru,Kolkata Knight Riders,"M Chinnaswamy Stadium, Bengaluru",2024,Kolkata Knight Riders,field,0.5,0.6,0.5,0.5,1.0,1.0,Kolkata Knight Riders
+1422129,2024-03-30,Lucknow Super Giants,Punjab Kings,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2024,Lucknow Super Giants,bat,0.6,0.4,0.6666666666666666,0.3333333333333333,0.42857142857142855,1.0,Lucknow Super Giants
+1422130,2024-03-31,Sunrisers Hyderabad,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2024,Sunrisers Hyderabad,bat,0.2,0.4,0.3333333333333333,0.6666666666666666,0.0,0.6363636363636364,Gujarat Titans
+1422131,2024-03-31,Delhi Capitals,Chennai Super Kings,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",2024,Delhi Capitals,bat,0.2,1.0,0.0,1.0,0.5,0.5,Delhi Capitals
+1422132,2024-04-01,Mumbai Indians,Rajasthan Royals,"Wankhede Stadium, Mumbai",2024,Rajasthan Royals,field,0.4,0.8,0.6666666666666666,0.3333333333333333,0.6363636363636364,0.5,Rajasthan Royals
+1422133,2024-04-02,Lucknow Super Giants,Royal Challengers Bengaluru,"M Chinnaswamy Stadium, Bengaluru",2024,Royal Challengers Bengaluru,field,0.6,0.3333333333333333,0.5,0.5,1.0,0.5,Lucknow Super Giants
+1422134,2024-04-03,Kolkata Knight Riders,Delhi Capitals,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",2024,Kolkata Knight Riders,bat,0.6,0.4,0.0,1.0,0.5,1.0,Kolkata Knight Riders
+1422135,2024-04-04,Gujarat Titans,Punjab Kings,"Narendra Modi Stadium, Ahmedabad",2024,Punjab Kings,field,0.6,0.2,0.6666666666666666,0.3333333333333333,0.6666666666666666,0.5,Punjab Kings
+1422136,2024-04-05,Chennai Super Kings,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2024,Sunrisers Hyderabad,field,0.8,0.2,0.6666666666666666,0.3333333333333333,0.5,0.25,Sunrisers Hyderabad
+1422137,2024-04-06,Royal Challengers Bengaluru,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2024,Rajasthan Royals,field,0.25,0.8,0.5,0.5,0.5,0.42857142857142855,Rajasthan Royals
+1422138,2024-04-07,Mumbai Indians,Delhi Capitals,"Wankhede Stadium, Mumbai",2024,Delhi Capitals,field,0.2,0.2,0.6666666666666666,0.3333333333333333,0.5833333333333334,0.2,Mumbai Indians
+1422139,2024-04-07,Lucknow Super Giants,Gujarat Titans,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2024,Lucknow Super Giants,bat,0.6,0.4,0.0,1.0,0.5,1.0,Lucknow Super Giants
+1426260,2024-04-08,Kolkata Knight Riders,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2024,Chennai Super Kings,field,0.8,0.6,0.6666666666666666,0.3333333333333333,1.0,0.7,Chennai Super Kings
+1426261,2024-04-09,Sunrisers Hyderabad,Punjab Kings,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",2024,Punjab Kings,field,0.4,0.4,0.6666666666666666,0.3333333333333333,0.5,1.0,Sunrisers Hyderabad
+1426262,2024-04-10,Rajasthan Royals,Gujarat Titans,"Sawai Mansingh Stadium, Jaipur",2024,Gujarat Titans,field,1.0,0.4,0.2,0.8,0.5,1.0,Gujarat Titans
+1426263,2024-04-11,Royal Challengers Bengaluru,Mumbai Indians,"Wankhede Stadium, Mumbai",2024,Mumbai Indians,field,0.2,0.2,0.5,0.5,0.5,0.6153846153846154,Mumbai Indians
+1426264,2024-04-12,Lucknow Super Giants,Delhi Capitals,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2024,Lucknow Super Giants,bat,0.6,0.2,1.0,0.0,0.5555555555555556,0.0,Delhi Capitals
+1426265,2024-04-13,Punjab Kings,Rajasthan Royals,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",2024,Rajasthan Royals,field,0.4,0.8,0.3333333333333333,0.6666666666666666,0.5,0.5,Rajasthan Royals
+1426266,2024-04-14,Lucknow Super Giants,Kolkata Knight Riders,"Eden Gardens, Kolkata",2024,Kolkata Knight Riders,field,0.6,0.6,1.0,0.0,0.5,0.375,Kolkata Knight Riders
+1426267,2024-04-14,Chennai Super Kings,Mumbai Indians,"Wankhede Stadium, Mumbai",2024,Mumbai Indians,field,0.6,0.4,0.75,0.25,0.2,0.6428571428571429,Chennai Super Kings
+1426268,2024-04-15,Sunrisers Hyderabad,Royal Challengers Bengaluru,"M Chinnaswamy Stadium, Bengaluru",2024,Royal Challengers Bengaluru,field,0.6,0.2,0.5,0.5,0.5,0.3333333333333333,Sunrisers Hyderabad
+1426269,2024-04-16,Kolkata Knight Riders,Rajasthan Royals,"Eden Gardens, Kolkata",2024,Rajasthan Royals,field,0.8,0.8,0.3333333333333333,0.6666666666666666,0.4444444444444444,0.5,Rajasthan Royals
+1426270,2024-04-17,Gujarat Titans,Delhi Capitals,"Narendra Modi Stadium, Ahmedabad",2024,Delhi Capitals,field,0.4,0.4,0.6666666666666666,0.3333333333333333,0.6153846153846154,1.0,Delhi Capitals
+1426271,2024-04-18,Mumbai Indians,Punjab Kings,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",2024,Punjab Kings,field,0.4,0.2,0.3333333333333333,0.6666666666666666,0.5,0.3333333333333333,Mumbai Indians
+1426272,2024-04-19,Chennai Super Kings,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2024,Lucknow Super Giants,field,0.6,0.6,0.3333333333333333,0.3333333333333333,0.0,0.5,Lucknow Super Giants
+1426273,2024-04-20,Sunrisers Hyderabad,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2024,Delhi Capitals,field,0.8,0.6,0.3333333333333333,0.6666666666666666,1.0,0.2857142857142857,Sunrisers Hyderabad
+1426274,2024-04-21,Kolkata Knight Riders,Royal Challengers Bengaluru,"Eden Gardens, Kolkata",2024,Royal Challengers Bengaluru,field,0.6,0.0,1.0,0.0,0.4,0.5,Kolkata Knight Riders
+1426275,2024-04-21,Punjab Kings,Gujarat Titans,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",2024,Punjab Kings,bat,0.2,0.4,0.5,0.5,0.25,0.5,Gujarat Titans
+1426276,2024-04-22,Mumbai Indians,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2024,Mumbai Indians,bat,0.6,0.8,0.5,0.5,0.5,0.4444444444444444,Rajasthan Royals
+1426277,2024-04-23,Chennai Super Kings,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",2024,Lucknow Super Giants,field,0.4,0.6,0.25,0.5,0.7272727272727273,0.0,Lucknow Super Giants
+1426278,2024-04-24,Delhi Capitals,Gujarat Titans,"Arun Jaitley Stadium, Delhi",2024,Gujarat Titans,field,0.4,0.4,0.5,0.5,0.25,1.0,Delhi Capitals
+1426279,2024-04-25,Royal Challengers Bengaluru,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2024,Royal Challengers Bengaluru,bat,0.0,0.8,0.0,1.0,0.5,0.3333333333333333,Royal Challengers Bengaluru
+1426280,2024-04-26,Kolkata Knight Riders,Punjab Kings,"Eden Gardens, Kolkata",2024,Punjab Kings,field,0.6,0.2,0.6666666666666666,0.3333333333333333,0.45454545454545453,0.0,Punjab Kings
+1426281,2024-04-27,Delhi Capitals,Mumbai Indians,"Arun Jaitley Stadium, Delhi",2024,Mumbai Indians,field,0.6,0.6,0.25,0.75,0.3333333333333333,1.0,Delhi Capitals
+1426282,2024-04-27,Lucknow Super Giants,Rajasthan Royals,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2024,Rajasthan Royals,field,0.6,0.8,0.25,0.75,0.5454545454545454,0.5,Rajasthan Royals
+1426283,2024-04-28,Gujarat Titans,Royal Challengers Bengaluru,"Narendra Modi Stadium, Ahmedabad",2024,Royal Challengers Bengaluru,field,0.4,0.2,0.5,0.5,0.5714285714285714,0.5,Royal Challengers Bengaluru
+1426284,2024-04-28,Chennai Super Kings,Sunrisers Hyderabad,"MA Chidambaram Stadium, Chepauk, Chennai",2024,Sunrisers Hyderabad,field,0.4,0.8,0.5,0.5,0.6666666666666666,0.0,Chennai Super Kings
+1426285,2024-04-29,Delhi Capitals,Kolkata Knight Riders,"Eden Gardens, Kolkata",2024,Delhi Capitals,bat,0.8,0.4,0.75,0.25,0.5,0.4166666666666667,Kolkata Knight Riders
+1426286,2024-04-30,Mumbai Indians,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2024,Lucknow Super Giants,field,0.4,0.4,0.25,0.75,0.0,0.5,Lucknow Super Giants
+1426287,2024-05-01,Chennai Super Kings,Punjab Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2024,Punjab Kings,field,0.6,0.2,0.0,1.0,0.6923076923076923,1.0,Punjab Kings
+1426288,2024-05-02,Sunrisers Hyderabad,Rajasthan Royals,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2024,Sunrisers Hyderabad,bat,0.6,0.8,0.3333333333333333,0.6666666666666666,0.3,1.0,Sunrisers Hyderabad
+1426289,2024-05-03,Kolkata Knight Riders,Mumbai Indians,"Wankhede Stadium, Mumbai",2024,Mumbai Indians,field,0.6,0.2,0.6666666666666666,0.3333333333333333,0.6,0.6,Kolkata Knight Riders
+1426290,2024-05-04,Gujarat Titans,Royal Challengers Bengaluru,"M Chinnaswamy Stadium, Bengaluru",2024,Royal Challengers Bengaluru,field,0.4,0.4,0.0,1.0,1.0,0.25,Royal Challengers Bengaluru
+1426291,2024-05-05,Chennai Super Kings,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2024,Punjab Kings,field,0.4,0.4,0.0,1.0,0.5,0.0,Chennai Super Kings
+1426292,2024-05-05,Kolkata Knight Riders,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2024,Lucknow Super Giants,field,0.6,0.6,0.25,0.75,0.5,0.5384615384615384,Kolkata Knight Riders
+1426293,2024-05-06,Sunrisers Hyderabad,Mumbai Indians,"Wankhede Stadium, Mumbai",2024,Mumbai Indians,field,0.6,0.2,0.5,0.5,0.2,0.5625,Mumbai Indians
+1426294,2024-05-07,Delhi Capitals,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",2024,Rajasthan Royals,field,0.6,0.8,0.25,0.75,0.4,0.5,Delhi Capitals
+1426295,2024-05-08,Lucknow Super Giants,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2024,Lucknow Super Giants,bat,0.6,0.4,1.0,0.0,1.0,0.36363636363636365,Sunrisers Hyderabad
+1426296,2024-05-09,Royal Challengers Bengaluru,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2024,Punjab Kings,field,0.6,0.4,1.0,0.0,0.5,0.0,Royal Challengers Bengaluru
+1426297,2024-05-10,Gujarat Titans,Chennai Super Kings,"Narendra Modi Stadium, Ahmedabad",2024,Chennai Super Kings,field,0.2,0.4,0.5,0.5,0.5333333333333333,0.5,Gujarat Titans
+1426298,2024-05-11,Kolkata Knight Riders,Mumbai Indians,"Eden Gardens, Kolkata",2024,Mumbai Indians,field,0.8,0.2,0.75,0.25,0.46153846153846156,0.5,Kolkata Knight Riders
+1426299,2024-05-12,Rajasthan Royals,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2024,Rajasthan Royals,bat,0.6,0.4,1.0,0.0,1.0,0.6428571428571429,Chennai Super Kings
+1426300,2024-05-12,Royal Challengers Bengaluru,Delhi Capitals,"M Chinnaswamy Stadium, Bengaluru",2024,Delhi Capitals,field,0.8,0.6,0.5,0.5,0.4,0.0,Royal Challengers Bengaluru
+1426302,2024-05-14,Delhi Capitals,Lucknow Super Giants,"Arun Jaitley Stadium, Delhi",2024,Lucknow Super Giants,field,0.6,0.4,0.25,0.75,0.45454545454545453,0.5,Delhi Capitals
+1426303,2024-05-15,Rajasthan Royals,Punjab Kings,"Barsapara Cricket Stadium, Guwahati",2024,Rajasthan Royals,bat,0.4,0.4,0.75,0.25,0.5,1.0,Punjab Kings
+1426305,2024-05-17,Lucknow Super Giants,Mumbai Indians,"Wankhede Stadium, Mumbai",2024,Mumbai Indians,field,0.2,0.2,0.8,0.2,0.5,0.5882352941176471,Lucknow Super Giants
+1426306,2024-05-18,Royal Challengers Bengaluru,Chennai Super Kings,"M Chinnaswamy Stadium, Bengaluru",2024,Chennai Super Kings,field,1.0,0.6,0.0,1.0,0.5,1.0,Royal Challengers Bengaluru
+1426307,2024-05-19,Punjab Kings,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2024,Punjab Kings,bat,0.6,0.4,0.25,0.75,0.0,0.4166666666666667,Sunrisers Hyderabad
+1426309,2024-05-21,Sunrisers Hyderabad,Kolkata Knight Riders,"Narendra Modi Stadium, Ahmedabad",2024,Sunrisers Hyderabad,bat,0.6,0.8,0.4,0.6,0.0,1.0,Kolkata Knight Riders
+1426310,2024-05-22,Royal Challengers Bengaluru,Rajasthan Royals,"Narendra Modi Stadium, Ahmedabad",2024,Rajasthan Royals,field,1.0,0.2,0.0,1.0,1.0,0.6666666666666666,Rajasthan Royals
+1426311,2024-05-24,Sunrisers Hyderabad,Rajasthan Royals,"MA Chidambaram Stadium, Chepauk, Chennai",2024,Rajasthan Royals,field,0.6,0.2,0.5,0.5,0.0,0.5,Sunrisers Hyderabad
+1426312,2024-05-26,Sunrisers Hyderabad,Kolkata Knight Riders,"MA Chidambaram Stadium, Chepauk, Chennai",2024,Sunrisers Hyderabad,bat,0.6,1.0,0.3333333333333333,0.6666666666666666,0.3333333333333333,0.5,Kolkata Knight Riders
+1473438,2025-03-22,Kolkata Knight Riders,Royal Challengers Bengaluru,"Eden Gardens, Kolkata",2025,Royal Challengers Bengaluru,field,1.0,0.8,1.0,0.0,0.5,0.0,Royal Challengers Bengaluru
+1473439,2025-03-23,Sunrisers Hyderabad,Rajasthan Royals,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2025,Rajasthan Royals,field,0.6,0.2,0.6,0.4,0.46153846153846156,0.5,Sunrisers Hyderabad
+1473440,2025-03-23,Mumbai Indians,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2025,Chennai Super Kings,field,0.2,0.4,0.2,0.8,0.5,0.6666666666666666,Chennai Super Kings
+1473441,2025-03-24,Lucknow Super Giants,Delhi Capitals,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",2025,Delhi Capitals,field,0.4,0.6,0.6,0.4,0.5,0.5,Delhi Capitals
+1473442,2025-03-25,Punjab Kings,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2025,Gujarat Titans,field,0.4,0.4,0.4,0.6,1.0,0.5625,Punjab Kings
+1473443,2025-03-26,Rajasthan Royals,Kolkata Knight Riders,"Barsapara Cricket Stadium, Guwahati",2025,Kolkata Knight Riders,field,0.2,0.8,0.75,0.25,0.3333333333333333,0.5,Kolkata Knight Riders
+1473444,2025-03-27,Sunrisers Hyderabad,Lucknow Super Giants,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2025,Lucknow Super Giants,field,0.6,0.2,0.25,0.75,0.5,0.5,Lucknow Super Giants
+1473445,2025-03-28,Royal Challengers Bengaluru,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2025,Chennai Super Kings,field,0.8,0.6,0.5,0.5,0.0,0.6875,Royal Challengers Bengaluru
+1473446,2025-03-29,Gujarat Titans,Mumbai Indians,"Narendra Modi Stadium, Ahmedabad",2025,Mumbai Indians,field,0.2,0.2,0.6,0.4,0.5294117647058824,0.0,Gujarat Titans
+1473447,2025-03-30,Sunrisers Hyderabad,Delhi Capitals,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",2025,Sunrisers Hyderabad,bat,0.4,0.6,0.5,0.5,0.5,0.6666666666666666,Delhi Capitals
+1473448,2025-03-30,Rajasthan Royals,Chennai Super Kings,"Barsapara Cricket Stadium, Guwahati",2025,Chennai Super Kings,field,0.2,0.4,0.75,0.25,0.25,0.5,Rajasthan Royals
+1473449,2025-03-31,Kolkata Knight Riders,Mumbai Indians,"Wankhede Stadium, Mumbai",2025,Mumbai Indians,field,0.8,0.2,0.8,0.2,0.6666666666666666,0.5555555555555556,Mumbai Indians
+1473450,2025-04-01,Lucknow Super Giants,Punjab Kings,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2025,Punjab Kings,field,0.4,0.4,0.75,0.25,0.5,0.5,Punjab Kings
+1473451,2025-04-02,Royal Challengers Bengaluru,Gujarat Titans,"M Chinnaswamy Stadium, Bengaluru",2025,Gujarat Titans,field,0.8,0.4,1.0,0.0,0.5714285714285714,0.5,Gujarat Titans
+1473452,2025-04-03,Kolkata Knight Riders,Sunrisers Hyderabad,"Eden Gardens, Kolkata",2025,Sunrisers Hyderabad,field,0.6,0.4,0.7142857142857143,0.2857142857142857,0.4666666666666667,0.5,Kolkata Knight Riders
+1473453,2025-04-04,Lucknow Super Giants,Mumbai Indians,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2025,Mumbai Indians,field,0.4,0.2,0.8333333333333334,0.16666666666666666,0.4666666666666667,0.0,Lucknow Super Giants
+1473454,2025-04-05,Delhi Capitals,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2025,Delhi Capitals,bat,0.8,0.4,0.25,0.75,0.0,0.6470588235294118,Delhi Capitals
+1473455,2025-04-05,Rajasthan Royals,Punjab Kings,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",2025,Punjab Kings,field,0.4,0.6,0.6,0.4,1.0,0.2,Rajasthan Royals
+1473457,2025-04-06,Sunrisers Hyderabad,Gujarat Titans,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2025,Gujarat Titans,field,0.2,0.6,0.25,0.75,0.4666666666666667,0.5,Gujarat Titans
+1473458,2025-04-07,Royal Challengers Bengaluru,Mumbai Indians,"Wankhede Stadium, Mumbai",2025,Mumbai Indians,field,0.6,0.2,0.0,1.0,0.0,0.5789473684210527,Royal Challengers Bengaluru
+1473456,2025-04-08,Lucknow Super Giants,Kolkata Knight Riders,"Eden Gardens, Kolkata",2025,Kolkata Knight Riders,field,0.6,0.6,0.6,0.4,0.3333333333333333,0.5,Lucknow Super Giants
+1473459,2025-04-08,Punjab Kings,Chennai Super Kings,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",2025,Punjab Kings,bat,0.6,0.2,0.8,0.2,0.16666666666666666,0.5,Punjab Kings
+1473460,2025-04-09,Gujarat Titans,Rajasthan Royals,"Narendra Modi Stadium, Ahmedabad",2025,Rajasthan Royals,field,0.8,0.4,0.8333333333333334,0.16666666666666666,0.5555555555555556,0.75,Gujarat Titans
+1473461,2025-04-10,Royal Challengers Bengaluru,Delhi Capitals,"M Chinnaswamy Stadium, Bengaluru",2025,Delhi Capitals,field,0.6,0.8,1.0,0.0,0.5,0.0,Delhi Capitals
+1473462,2025-04-11,Chennai Super Kings,Kolkata Knight Riders,"MA Chidambaram Stadium, Chepauk, Chennai",2025,Kolkata Knight Riders,field,0.2,0.4,0.5,0.5,0.6111111111111112,0.6666666666666666,Kolkata Knight Riders
+1473463,2025-04-12,Gujarat Titans,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2025,Lucknow Super Giants,field,0.8,0.6,0.8,0.2,0.5,0.5,Lucknow Super Giants
+1473464,2025-04-12,Punjab Kings,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2025,Punjab Kings,bat,0.6,0.2,0.2,0.8,0.0,0.4375,Sunrisers Hyderabad
+1473465,2025-04-13,Rajasthan Royals,Royal Challengers Bengaluru,"Sawai Mansingh Stadium, Jaipur",2025,Royal Challengers Bengaluru,field,0.4,0.6,1.0,0.0,0.5,0.0,Royal Challengers Bengaluru
+1473466,2025-04-13,Mumbai Indians,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2025,Delhi Capitals,field,0.2,1.0,0.6,0.4,0.5,0.5,Mumbai Indians
+1473467,2025-04-14,Lucknow Super Giants,Chennai Super Kings,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2025,Chennai Super Kings,field,0.8,0.0,0.6,0.2,0.5294117647058824,0.0,Chennai Super Kings
+1473468,2025-04-15,Punjab Kings,Kolkata Knight Riders,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",2025,Punjab Kings,bat,0.6,0.6,0.5,0.5,0.2857142857142857,0.5,Punjab Kings
+1473469,2025-04-16,Delhi Capitals,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",2025,Rajasthan Royals,field,0.8,0.4,0.4,0.6,0.46153846153846156,0.0,
+1473470,2025-04-17,Sunrisers Hyderabad,Mumbai Indians,"Wankhede Stadium, Mumbai",2025,Mumbai Indians,field,0.2,0.4,0.4,0.6,0.16666666666666666,0.55,Mumbai Indians
+1473471,2025-04-18,Royal Challengers Bengaluru,Punjab Kings,"M Chinnaswamy Stadium, Bengaluru",2025,Punjab Kings,field,0.6,0.6,1.0,0.0,0.4444444444444444,0.0,Punjab Kings
+1473472,2025-04-19,Delhi Capitals,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2025,Gujarat Titans,field,0.6,0.8,0.6,0.4,1.0,0.5789473684210527,Gujarat Titans
+1473473,2025-04-19,Lucknow Super Giants,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2025,Lucknow Super Giants,bat,0.6,0.4,0.2,0.8,0.5,0.45454545454545453,Lucknow Super Giants
+1473474,2025-04-20,Punjab Kings,Royal Challengers Bengaluru,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",2025,Royal Challengers Bengaluru,field,0.6,0.4,0.3333333333333333,0.6666666666666666,0.375,0.5,Royal Challengers Bengaluru
