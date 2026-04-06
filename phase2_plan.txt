@@ -1,0 +1,114 @@
+# Phase 2: Comprehensive ML Model Training Plan
+
+## Objective
+Train 10 ML models with multiple hyperparameter configurations using cross-validation, log everything to MLflow, and generate a detailed performance analysis report.
+
+---
+
+## Models & Configurations (30 total runs)
+
+### 1. Logistic Regression
+- C=0.1 (L2 regularization strong)
+- C=1.0 (moderate regularization)
+- C=10.0 (weak regularization)
+
+### 2. Random Forest
+- n_estimators=100, max_depth=5
+- n_estimators=100, max_depth=10
+- n_estimators=100, max_depth=15
+
+### 3. XGBoost
+- learning_rate=0.01, max_depth=4
+- learning_rate=0.1, max_depth=6
+- learning_rate=0.3, max_depth=8
+
+### 4. AdaBoost
+- n_estimators=50
+- n_estimators=100
+- n_estimators=200
+
+### 5. SVM (RBF Kernel)
+- C=0.1
+- C=1.0
+- C=10.0
+
+### 6. Gradient Boosting
+- learning_rate=0.05, max_depth=3
+- learning_rate=0.1, max_depth=5
+- learning_rate=0.2, max_depth=7
+
+### 7. Ridge Classifier
+- alpha=0.1
+- alpha=1.0
+- alpha=10.0
+
+### 8. Naive Bayes
+- GaussianNB
+- MultinomialNB
+- BernoulliNB
+
+### 9. MLP Classifier
+- hidden_layer_sizes=(50,)
+- hidden_layer_sizes=(100, 50)
+- hidden_layer_sizes=(100, 100, 50)
+
+### 10. CatBoost
+- learning_rate=0.03, depth=4
+- learning_rate=0.1, depth=6
+- learning_rate=0.3, depth=8
+
+---
+
+## Cross-Validation Strategy
+- **5-Fold Stratified Cross-Validation** on training data
+- Ensures equal team representation in each fold
+- Log: mean accuracy, std, per-fold scores
+
+---
+
+## Preprocessing
+1. **Feature Scaling**: StandardScaler for SVM, MLP, Logistic Regression, Ridge
+2. **Class Weights**: 'balanced' for all models to handle 11-class imbalance
+3. **No scaling needed for**: Tree-based models (RF, XGBoost, AdaBoost, GB, CatBoost)
+
+---
+
+## MLflow Logging
+For each run, log:
+- Parameters (hyperparameters)
+- Metrics: accuracy, precision, recall, f1 (both CV and test)
+- Model artifact
+- Tags: model_type, configuration_name
+- Notes: feature scaling applied (yes/no)
+
+---
+
+## Post-Training Analysis
+1. Compare all 30 configurations
+2. Identify best overall model
+3. Create Hard Voting Ensemble from top 5 models
+4. Create Soft Voting Ensemble from top 5 models
+5. Generate detailed analysis report
+
+---
+
+## Expected Improvements
+- CatBoost: Native categorical handling
+- Class weights: Better prediction for minority teams
+- CV: More robust accuracy estimate
+- Ensemble: Potentially higher than any single model
+
+---
+
+## Files to Create
+- `src/comprehensive_training.py` - Main training script
+- `src/ensemble_training.py` - Ensemble creation
+- `MODEL_ANALYSIS_REPORT.md` - Detailed analysis report
+- `FINAL_PREDICTIONS.csv` - Predictions from best model/ensemble
+
+---
+
+## Timeline
+- Training: ~45-60 minutes (30 configurations)
+- Report: ~5-10 minutes
+- Total: ~1 hour
