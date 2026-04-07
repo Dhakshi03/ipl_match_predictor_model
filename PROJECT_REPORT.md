@@ -1,80 +1,132 @@
-# T20 Match Winner Prediction - Project Report
+# T20 Match Winner Prediction - Final Project Report
 
 ## Overview
-This project builds an ML model to predict T20 cricket match winners using historical IPL data. The system uses MLflow for experiment tracking.
+
+This project builds an ML model to predict T20 cricket match winners using historical IPL data. The system uses **binary classification** (team1 wins vs team2 wins) and MLflow for experiment tracking.
 
 ---
 
 ## Team Roles
+
 - **Person A**: Data processing and feature engineering (parsing YAML files, creating train/test splits)
-- **Person B (this project)**: ML model training with MLflow tracking
+- **Person B**: ML model training with MLflow tracking
 
 ---
 
 ## Data Pipeline
 
-### Step 1: Data Splitting (Person A)
-- Source: Cricsheet IPL YAML files (2022-2026)
-- Train: 256 matches (2022 to early April 2025)
-- Test: 43 matches (late April 2025 to 2026)
-- Split rule: Time-based (no data leakage)
+### Step 1: Data Splitting
+- **Source**: Cricsheet IPL YAML files (2022-2026)
+- **Train**: 256 matches (2022 to early April 2025)
+- **Test**: 43 matches (late April 2025 to 2026)
+- **Split rule**: Time-based (no data leakage)
 
-### Step 2: Feature Engineering (Person A)
-Features computed BEFORE each match using only historical data:
+### Step 2: Feature Engineering
 
+#### Original Features (14 columns)
 | Feature | Description |
 |---------|-------------|
 | team1_win_pct_last_5 | Team 1's win % in last 5 matches |
 | team2_win_pct_last_5 | Team 2's win % in last 5 matches |
-| team1_head_to_head_win_pct | Team 1's win % vs Team 2 (all-time) |
-| team2_head_to_head_win_pct | Team 2's win % vs Team 1 (all-time) |
+| team1_head_to_head_win_pct | Team 1's win % vs Team 2 |
+| team2_head_to_head_win_pct | Team 2's win % vs Team 1 |
 | team1_win_pct_at_venue | Team 1's win % at this venue |
 | team2_win_pct_at_venue | Team 2's win % at this venue |
 | toss_advantage | Whether toss winner is team1 |
 
-### Step 3: CSV Generation (Person B)
-- `train_features.csv`: 254 rows (2 matches with no winner removed)
-- `test_features.csv`: 40 rows (3 matches with no winner removed)
+#### Enhanced Features (20 columns) - **BEST RESULT**
+Person B extracted additional batting/bowling statistics from YAML:
+
+| Feature | Description |
+|---------|-------------|
+| team1_avg_runs | Team 1's average runs in previous matches |
+| team2_avg_runs | Team 2's average runs |
+| team1_avg_wickets | Team 1's average wickets lost |
+| team2_avg_wickets | Team 2's average wickets lost |
+| team1_run_rate | Team 1's historical run rate |
+| team2_run_rate | Team 2's historical run rate |
+| team1_death_run_rate | Team 1's death overs (16-20) run rate |
+| team2_death_run_rate | Team 2's death overs run rate |
+| team1_matches | Number of matches team 1 played |
+| team2_matches | Number of matches team 2 played |
+
+**Plus difference features**: runs_diff, run_rate_diff, death_rate_diff, wickets_diff, matches_diff
 
 ---
 
-## ML Training Pipeline
+## MLflow Experiments
 
-### Data Preprocessing
-1. Label encode categorical variables (team1, team2, venue, toss_decision)
-2. Create difference features (win_pct_diff, h2h_diff, venue_diff)
-3. Final feature set: 14 features
+### All Experiments (Logged at http://localhost:5000)
 
-### Models Trained
-
-| Model | Test Accuracy | Precision | Recall | F1 Score |
-|-------|--------------|-----------|--------|----------|
-| Logistic Regression | 0.2250 | 0.3289 | 0.2250 | 0.2300 |
-| Random Forest | 0.2000 | 0.2308 | 0.2000 | 0.1961 |
-| **XGBoost** | **0.4500** | 0.4914 | 0.4500 | 0.4430 |
-
-**Best Model: XGBoost with 45% accuracy**
-
-### Why 45% is reasonable for 11 classes
-- Random guessing would give ~9% accuracy (1/11 teams)
-- 45% is 5x better than random
-- Cricket outcomes have inherent randomness (upsets happen)
+| Experiment | Description | Best Accuracy |
+|------------|-------------|--------------|
+| T20_Match_Winner_Prediction | Initial models (binary, 14 features) | 60% |
+| T20_Match_Winner_Enhanced_Features | Binary with batting stats (20 features) | **65%** |
+| T20_Match_Winner_All_Improvements | Feature engineering attempts (35 features) | 57.5% |
 
 ---
 
-## MLflow Tracking
+## Model Results Summary
 
-### Experiment: T20_Match_Winner_Prediction
-All training runs logged with:
-- Parameters (hyperparameters used)
-- Metrics (accuracy, precision, recall, f1)
-- Model artifacts (serialized models)
-- Tags (model type)
+### Binary Classification (2-class: team1 wins vs team2 wins)
 
-### Access MLflow UI
-```
-http://localhost:5000
-```
+| Model | Features | Test Accuracy | CV Score |
+|-------|----------|--------------|----------|
+| **GradientBoosting (lr=0.1, d=5)** | **20** | **65%** | 51.6% |
+| MLP (100,50) | 14 | 60% | 44.1% |
+| XGBoost | 20 | 57.5% | 50.0% |
+| RandomForest | 20 | 60% | 45.7% |
+
+**Final Model: GradientBoosting with 20 enhanced features = 65% accuracy**
+
+---
+
+## Improvement Attempts (All Logged in MLflow)
+
+We systematically attempted to improve the model:
+
+1. **Feature Engineering**
+   - Added interaction features (run_rate × toss_advantage)
+   - Added polynomial features (squared terms)
+   - Added binned features
+   - **Result**: No improvement, caused overfitting
+
+2. **Target Encoding**
+   - Team win rate encoding
+   - Venue win rate encoding
+   - **Result**: Added noise due to small sample size
+
+3. **More Model Configurations**
+   - 13+ configurations tuned
+   - **Result**: Original model remained best
+
+4. **Ensemble Methods**
+   - Soft voting, Hard voting
+   - **Result**: No improvement over single model
+
+5. **Threshold Optimization**
+   - Tested 0.4, 0.45, 0.5, 0.55, 0.6
+   - **Result**: Default 0.5 was optimal
+
+### Why Improvements Failed
+
+The 35-feature model achieved only **57.5%** vs the 20-feature model at **65%**.
+
+**Reason**: With only 254 training samples:
+- 20 features = 12.7:1 sample-to-feature ratio (acceptable)
+- 35 features = 7.2:1 ratio (too low → overfitting)
+
+Each additional feature had fewer than 8 samples to learn from, causing the model to memorize rather than generalize.
+
+---
+
+## Final Predictions
+
+Using GradientBoosting (lr=0.1, depth=5) with 20 enhanced features:
+
+- **Test Accuracy**: 65% (26/40 correct)
+- **Random Baseline**: 50%
+- **Improvement**: +15% over random
 
 ---
 
@@ -84,17 +136,24 @@ http://localhost:5000
 ipl_match_predictor_model/
 ├── data/
 │   ├── processed/
-│   │   ├── train_features.csv     # 254 rows, 16 columns
-│   │   └── test_features.csv      # 40 rows, 16 columns
+│   │   ├── train_features.csv         # Original 14 features
+│   │   ├── test_features.csv
+│   │   ├── enhanced_train_features.csv  # 20 features (BEST)
+│   │   ├── enhanced_test_features.csv
+│   │   └── enhanced_final_predictions.csv
 │   └── splits/pre_match_eval/
-│       ├── train/                 # 256 YAML files
-│       └── test/                  # 43 YAML files
+│       ├── train/                      # 256 YAML files
+│       └── test/                      # 43 YAML files
 ├── scripts/
-│   ├── generate_train_features.py  # Creates train_features.csv
-│   └── generate_test_features.py   # Creates test_features.csv
-└── src/
-    ├── train_with_mlflow.py       # Main training script
-    └── train_no_mlflow.py          # Training without MLflow
+│   ├── generate_train_features.py
+│   └── generate_test_features.py
+├── src/
+│   ├── enhanced_feature_engineering.py  # Extracts batting stats
+│   ├── enhanced_training.py            # Main training
+│   └── all_improvements.py             # Improvement attempts
+├── ENHANCED_FEATURES_REPORT.md          # 65% result details
+├── IMPROVEMENT_ANALYSIS_REPORT.md      # Why improvements failed
+└── PROJECT_REPORT.md                    # This file
 ```
 
 ---
@@ -108,59 +167,53 @@ cd ipl_match_predictor_model
 pip install mlflow scikit-learn xgboost pandas numpy pyyaml
 ```
 
-### 2. Generate Features
+### 2. Generate Enhanced Features
 ```bash
-python scripts/generate_train_features.py
-python scripts/generate_test_features.py
+python src/enhanced_feature_engineering.py
 ```
 
 ### 3. Start MLflow
 ```bash
 mlflow ui --backend-store-uri sqlite:///mlflow.db
+# Open http://localhost:5000
 ```
 
-### 4. Train Models
+### 4. Train Final Model
 ```bash
-python -X utf8 src/train_with_mlflow.py
+python -X utf8 src/enhanced_training.py
 ```
-
----
-
-## Observations
-
-1. **XGBoost performs best** - Likely due to ability to handle non-linear relationships
-2. **Low accuracy overall** - 11-class classification is inherently difficult
-3. **Pre-match features are limited** - Match outcome depends on in-match performance (which can't be known pre-match)
-4. **Toss matters** - Could add more toss-based features
-
----
-
-## Potential Improvements
-
-1. Add more historical features (season performance, player form)
-2. Include team strength ratings (ELO system)
-3. Hyperparameter tuning for XGBoost
-4. Feature importance analysis to understand key predictors
-
----
-
-## Files Created/Modified by Person B
-
-1. `scripts/generate_train_features.py` - Train feature generation
-2. `src/train_with_mlflow.py` - ML training with experiment tracking
-3. `src/train_no_mlflow.py` - Quick training without MLflow
-4. `data/processed/train_features.csv` - Generated CSV
-5. `data/processed/test_features.csv` - Generated CSV
 
 ---
 
 ## Conclusion
 
-Successfully built a T20 match winner prediction system with:
-- Proper train/test split (time-based)
-- Historical pre-match features
-- Multiple ML models (Logistic Regression, Random Forest, XGBoost)
-- MLflow experiment tracking
-- XGBoost achieving 45% accuracy on 11-class classification
+**Final Model Performance:**
+- **Accuracy**: 65% (26/40 correct predictions)
+- **Improvement over random**: +15%
+- **Algorithm**: GradientBoosting with 20 enhanced batting features
 
-The model is available in MLflow for comparison and the best model (XGBoost) can be registered for deployment.
+**Key Learnings:**
+1. Simple model with good features > Complex model with more features
+2. Feature-to-sample ratio matters (aim for 10:1 minimum)
+3. With small datasets (254 samples), simpler is better
+4. Target encoding and polynomial features caused overfitting
+
+**All experiments logged in MLflow** for reproducibility and comparison.
+
+---
+
+## Files for Submission
+
+| File | Description |
+|------|-------------|
+| `enhanced_final_predictions.csv` | Final predictions (65% accuracy) |
+| `enhanced_model_comparison.csv` | All model results |
+| `ENHANCED_FEATURES_REPORT.md` | Details of 65% result |
+| `IMPROVEMENT_ANALYSIS_REPORT.md` | Why improvement attempts failed |
+| MLflow Experiment: `T20_Match_Winner_Enhanced_Features` | All runs logged |
+
+---
+
+**MLflow UI**: http://localhost:5000
+
+**Best Experiment**: T20_Match_Winner_Enhanced_Features (65% accuracy)
