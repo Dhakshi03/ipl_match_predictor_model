@@ -1,0 +1,6 @@
+Model,Test_Accuracy,Best_Params,CV_Score
+SVM,0.4,"{'kernel': 'poly', 'gamma': 0.1, 'coef0': 1, 'C': 10}",0.5469019607843137
+VotingEnsemble,0.35,soft_voting_4_models,0.0
+GradientBoosting,0.35,"{'subsample': 1.0, 'n_estimators': 100, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_depth': 7, 'learning_rate': 0.01}",0.5395294117647059
+MLP,0.325,"{'learning_rate_init': 0.01, 'hidden_layer_sizes': (100,), 'early_stopping': False, 'alpha': 0.001, 'activation': 'tanh'}",0.5551372549019608
+RandomForest,0.325,"{'n_estimators': 300, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 5}",0.5552941176470589
