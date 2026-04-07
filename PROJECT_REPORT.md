@@ -63,6 +63,7 @@ Person B extracted additional batting/bowling statistics from YAML:
 | T20_Match_Winner_Prediction | Initial models (binary, 14 features) | 60% |
 | T20_Match_Winner_Enhanced_Features | Binary with batting stats (20 features) | **65%** |
 | T20_Match_Winner_All_Improvements | Feature engineering attempts (35 features) | 57.5% |
+| **T20_Match_Winner_PreMatch_Clean** | **No data leakage - PRE-MATCH ONLY** | **50%** |
 
 ---
 
@@ -76,8 +77,57 @@ Person B extracted additional batting/bowling statistics from YAML:
 | MLP (100,50) | 14 | 60% | 44.1% |
 | XGBoost | 20 | 57.5% | 50.0% |
 | RandomForest | 20 | 60% | 45.7% |
+| **GradientBoosting (lr=0.05, d=4)** | **19 (clean)** | **50%** | 50.8% |
 
 **Final Model: GradientBoosting with 20 enhanced features = 65% accuracy**
+
+---
+
+## DATA LEAKAGE DISCOVERY & FIX
+
+### The Problem
+The original 65% accuracy model had **data leakage**. It used features that are only known AFTER the match:
+
+**LEAKAGE FEATURES (removed):**
+- `team1_inning_runs`, `team1_inning_wickets`, `team1_inning_run_rate`, `team1_death_runs`
+- `team2_inning_runs`, `team2_inning_wickets`, `team2_inning_run_rate`, `team2_death_runs`
+
+These are actual match results - they don't exist before the match starts!
+
+### The Fix
+Created `clean_prematch_training.py` that uses **ONLY pre-match features**:
+- Historical averages from last 5 matches (team form)
+- Team/venue encodings
+- Toss information
+
+### Clean Model Results
+
+```
+================================================================================
+CLEAN PRE-MATCH MODEL RESULTS (NO DATA LEAKAGE)
+================================================================================
+Best: GB_lr0.05_d4 with 0.5500 accuracy
+Random baseline: 50%
+Improvement: +5.0%
+
+Total: 20/40 = 50.0%
+```
+
+**Features used (19 clean features):**
+- team1_encoded, team2_encoded, venue_encoded
+- toss_decision_encoded, toss_advantage
+- team1_avg_runs_last5, team2_avg_runs_last5
+- team1_avg_wickets_last5, team2_avg_wickets_last5
+- team1_run_rate_last5, team2_run_rate_last5
+- team1_death_rate_last5, team2_death_rate_last5
+- team1_matches, team2_matches
+- runs_diff, run_rate_diff, death_rate_diff, wickets_diff
+
+### Why Clean Accuracy is Lower
+The 65% was inflated because:
+1. Model was "cheating" - seeing match results to predict match results
+2. Real pre-match prediction is hard: T20 cricket is inherently unpredictable
+3. 50% accuracy is only marginally above random (50%)
 
 ---
 
@@ -122,11 +172,17 @@ Each additional feature had fewer than 8 samples to learn from, causing the mode
 
 ## Final Predictions
 
-Using GradientBoosting (lr=0.1, depth=5) with 20 enhanced features:
-
+### Original Model (with leakage - INFLATED):
 - **Test Accuracy**: 65% (26/40 correct)
 - **Random Baseline**: 50%
 - **Improvement**: +15% over random
+
+### Clean Model (no leakage - REALISTIC):
+- **Test Accuracy**: 50% (20/40 correct)
+- **Random Baseline**: 50%
+- **Improvement**: +0% (barely above random)
+
+**Important**: The 65% was artificially inflated due to data leakage. The real pre-match prediction accuracy is ~50%, which is only marginally better than random guessing for T20 cricket.
 
 ---
 
@@ -138,9 +194,10 @@ ipl_match_predictor_model/
 │   ├── processed/
 │   │   ├── train_features.csv         # Original 14 features
 │   │   ├── test_features.csv
-│   │   ├── enhanced_train_features.csv  # 20 features (BEST)
+│   │   ├── enhanced_train_features.csv  # 20 features (with leakage)
 │   │   ├── enhanced_test_features.csv
-│   │   └── enhanced_final_predictions.csv
+│   │   ├── enhanced_final_predictions.csv
+│   │   └── clean_prematch_predictions.csv  # Clean model results
 │   └── splits/pre_match_eval/
 │       ├── train/                      # 256 YAML files
 │       └── test/                      # 43 YAML files
@@ -149,7 +206,8 @@ ipl_match_predictor_model/
 │   └── generate_test_features.py
 ├── src/
 │   ├── enhanced_feature_engineering.py  # Extracts batting stats
-│   ├── enhanced_training.py            # Main training
+│   ├── enhanced_training.py            # Main training (65% - with leakage)
+│   ├── clean_prematch_training.py      # Clean training (50% - no leakage)
 │   └── all_improvements.py             # Improvement attempts
 ├── ENHANCED_FEATURES_REPORT.md          # 65% result details
 ├── IMPROVEMENT_ANALYSIS_REPORT.md      # Why improvements failed
@@ -178,25 +236,32 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 # Open http://localhost:5000
 ```
 
-### 4. Train Final Model
+### 4. Train Original Model (with leakage - DO NOT USE)
 ```bash
 python -X utf8 src/enhanced_training.py
+```
+
+### 5. Train Clean Model (no leakage - RECOMMENDED)
+```bash
+python -X utf8 src/clean_prematch_training.py
 ```
 
 ---
 
 ## Conclusion
 
-**Final Model Performance:**
-- **Accuracy**: 65% (26/40 correct predictions)
-- **Improvement over random**: +15%
-- **Algorithm**: GradientBoosting with 20 enhanced batting features
+**Final Model Performance (Clean - No Leakage):**
+- **Accuracy**: 50% (20/40 correct predictions)
+- **Improvement over random**: +0% (marginal)
+- **Algorithm**: GradientBoosting with 19 pre-match features
 
 **Key Learnings:**
 1. Simple model with good features > Complex model with more features
 2. Feature-to-sample ratio matters (aim for 10:1 minimum)
 3. With small datasets (254 samples), simpler is better
 4. Target encoding and polynomial features caused overfitting
+5. **CRITICAL**: Always check for data leakage - use only pre-match features!
+6. T20 cricket match outcomes are inherently difficult to predict pre-match
 
 **All experiments logged in MLflow** for reproducibility and comparison.
 
@@ -206,14 +271,17 @@ python -X utf8 src/enhanced_training.py
 
 | File | Description |
 |------|-------------|
-| `enhanced_final_predictions.csv` | Final predictions (65% accuracy) |
+| `clean_prematch_predictions.csv` | Clean pre-match predictions (50% accuracy) |
+| `enhanced_final_predictions.csv` | Original predictions (65% - WITH LEAKAGE) |
 | `enhanced_model_comparison.csv` | All model results |
-| `ENHANCED_FEATURES_REPORT.md` | Details of 65% result |
-| `IMPROVEMENT_ANALYSIS_REPORT.md` | Why improvement attempts failed |
-| MLflow Experiment: `T20_Match_Winner_Enhanced_Features` | All runs logged |
+| ENHANCED_FEATURES_REPORT.md | Details of 65% result |
+| IMPROVEMENT_ANALYSIS_REPORT.md | Why improvement attempts failed |
+| MLflow Experiment: `T20_Match_Winner_PreMatch_Clean` | Clean runs logged |
 
 ---
 
 **MLflow UI**: http://localhost:5000
 
-**Best Experiment**: T20_Match_Winner_Enhanced_Features (65% accuracy)
+**Clean Experiment**: T20_Match_Winner_PreMatch_Clean (50% accuracy - no leakage)
+
+**Note**: The 65% accuracy in previous experiments was due to data leakage. The clean model achieves ~50% which is realistic for pre-match T20 predictions.
