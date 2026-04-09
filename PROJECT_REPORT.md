@@ -159,6 +159,47 @@ python -X utf8 src/compare_all_models.py
 
 ---
 
+## Ensemble Methods Tested
+
+We tested ensemble methods to see if combining multiple models could improve accuracy:
+
+### Methods Tested
+
+1. **Voting Classifier (Hard)** - Majority vote from 5 models
+   - Base models: GradientBoosting, RandomForest, XGBoost, MLP, AdaBoost
+   - Result: 62.5% - NOT an improvement
+
+2. **Voting Classifier (Soft)** - Average probabilities
+   - Base models: Same as above
+   - Result: 62.5% - NOT an improvement
+
+3. **Stacking Classifier** - Meta-learner approach
+   - Base models: GradientBoosting, RandomForest, XGBoost
+   - Meta-learner: LogisticRegression
+   - Result: 50% - WORSE than baseline
+
+### Ensemble Results
+
+| Method | Accuracy | vs Single Model (GB 65%) |
+|--------|----------|--------------------------|
+| Single GradientBoosting | 65% | - |
+| Voting (Hard) | 62.5% | -2.5% |
+| Voting (Soft) | 62.5% | -2.5% |
+| Stacking | 50% | -15% |
+
+### Why Ensemble Failed
+
+1. **Small dataset** - Only 254 training samples
+2. **Similar models** - All tree-based (GB, RF, XGBoost) lack diversity
+3. **Too many parameters** - Stacking especially overfits with limited data
+
+### Conclusion
+
+**Single GradientBoosting model (65%) remains the best.**  
+Ensemble methods do NOT improve results for this dataset.
+
+---
+
 ## Conclusion
 
 **Final Model Performance:**
